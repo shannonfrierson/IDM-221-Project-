@@ -1,38 +1,35 @@
 header img.logo {
     width: 100%;
-    length: 100%;
-    max-width: 800px;
+    height: 100%;
+    max-width: 1000px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding-bottom: 15px;
 }
 
 div.menu aside li a {
     text-decoration: none;
-    color:black;
-    font-size:1.5em;
-    font-family: "Didot";
+    color:white;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    margin: 25px;
+    padding-top: 10px;
+    line-height: 150%;
+    
 }
 
 div.menu aside li a:hover {
-    color: #993300;
+    text-decoration: underline;
 }
 
 div.menu aside ul {
+        position: fixed;
         list-style-type: none;
-        float: top right;
-        margin-left: 10px;
-        margin-right: 10x;
-        margin-top: 0px;
-
+        top:100px;
+        right: 0px;
     }
-
-div.menu img {
-    width: 50%;
-    float: left;
-    left: 0px;
-}
 
      
 .MainImage:hover {
@@ -46,63 +43,59 @@ div.menu img {
 
 .articlemain {
     width: 100vw;
-    padding: 10px;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
 }
 
 header h1 {
-    font-size:2em;
-    font-family: "Didot";
-    font-weight: bold;
+    font-size:3em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
     text-align: center;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 175%;
     
 }
 
 body main {
     font-size:16px;
     text-align: center;
-    font-family: "Raleway"
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
 }
 
 
-div.menu {
+#links {
+    display: none;
     position: fixed;
     right: 0px;
-    top: 0px;
-    background-color: white;
+    top: 100px;
+    background-color: black; 
     width: 50vw;
+    height: 50vh;
    
 }
 
-div.menu {
-    opacity: 0;
-}
-
-div.menu:hover {
-    opacity: 1;
-}
-
-
-div.button {
+#menubutton {
     position:fixed ;
-    right: 10px;
-    top: 10px;
+    right: 0px;
+    top: 0px;
     background-color: black;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    z-index:10;
     border-radius: 50px;
 }
 
-div.button p {
-    font-family: "Didot";
-    font-size: 1em;
-    color: white;
-    text-align: center;
+#menuimage {
+    width: 65px;
+    height: 65px;
 }
-div.button:hover {
-    background-color: #993300;
-}
+
+
+
+
 
 
